@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to right, #51516856, #ad43ad);
+     font-family: "Comic Sans", monospace;
+     font-size: 20px;
+}
+
+
+.styleDiv {
+   position : relative;
+   top : 100px;
+   left : 500px;
+   height : 400px;
+   width : 400px;
+   border-radius : 20px;
+   border-style : inset;
+   background-color : white;
+}
+
+ .formStyle {
+   width: 70%;
+   height: 40px;
+   margin : 20px 10px;
+   border-radius : 10px;
+}
+
+ .buttonStyle  {
+  width : 20%;
+  height : 40px;
+  padding : 10px 10px;
+  background-color : lightblue;
+  border-radius : 10px;
+}
+
+.text  {
+   text-align: center;
+   vertical-align: middle;
+   background-color : lightgrey;
+   width: 75%;
+   height: auto;
+   margin : 10px 25px;
+   padding : 10px 10px;
+   border-style: outset;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.text:hover {
+    border-style: inset;
+}
